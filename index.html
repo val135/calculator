@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <!--calculator starts here-->
+        <div class="calculator" id="calculator">
+            
+            <div>
+                <!-- grid buttons container -->
+                <div class="screen" id="screen">
+                    <div class="symbols"><p id="symbols">0</p></div>
+                    <!--type="text" class="symbols" id="symbols" name="symbols" value="">-->
+                </div>
+
+                <div class="row"> <!--ROW 1-->
+                    <button type="button" class="AC" id="ac">AC</button>
+                    <button type="button" class="grey operator" id="slash">/</button>
+                    <button type="button" class="grey operator" id="X">X</button>
+                </div>
+
+                <div class="row"> <!--ROW 2-->
+                    <button type="button" class="dark number" id="n7" value="7">7</button>
+                    <button type="button" class="dark number" id="n8" value="8">8</button>
+                    <button type="button" class="dark number"id="n9" value="9">9</button>
+                    <button type="button" class="grey operator" id="minus">-</button>
+                </div>
+
+                <div class="row"> <!--ROW 3-->
+                    <button type="button" class="dark number" id="n4" value="4">4</button>
+                    <button type="button" class="dark number" id="n5" value="5">5</button>
+                    <button type="button" class="dark number" id="n6" value="6">6</button>
+                    <button type="button" class="grey operator" id="plus">+</button>
+                </div>
+
+                <div class="box"> <!--ROW 4-->
+                    <button type="button" class="dark number" id="n1" value="1">1</button>
+                    <button type="button" class="dark number" id="n2" value="2">2</button>
+                    <button type="button" class="dark number" id="n3" value="3">3</button>
+                </div>
+
+                <div class="box"> <!--ROW 5-->
+                    <button type="button" class="dark-cero number" id="n0" value="0">0</button>
+                    <button type="button" class="dark" id="dot">.</button>
+                </div>
+
+                <div class="row"> <!--COL1-->
+                    <button type="button" class="blue" id="equal">=</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src=app.js></script>
+</body>
+</html>

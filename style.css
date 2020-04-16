@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffbb99;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.calculator {
+    height: 425px;
+    width: 285px;
+    background-color: #1c1c1a;
+    margin: 80px auto auto auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+input,.symbols {
+    display: block;
+    width: 240px;
+    height: 50px;
+    background-color: #bcc78d;
+    margin: 7px auto;
+    border-radius: 5px;
+}
+
+.symbols {
+    padding: 5px 15px ;
+    text-align: right;
+}
+
+.row {
+    display: flex;
+}
+
+.AC,.grey,.dark,.dark-cero,.dark-equal {
+    display: flex;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+
+.AC {
+    width: 130px;
+    background-color: #ab130e;
+}
+
+.grey {
+    width: 60px;
+    background-color: #de7f45;
+}
+
+.dark {
+    width: 60px;
+    background-color: #4f4f4e;
+}
+
+.dark-cero {
+    width: 130px;
+    background-color:#808080;
+}
+
+.dark-equal {
+    width: 130px;
+    background-color: #636363;
+}
+
+.blue {
+    width: 60px;
+    height: 130px;
+    background-color: #0560b5;
+    position: relative;
+    margin: 5px;
+    border: none;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    bottom: 140px;
+    right: -210px;
+}
+
+.box {
+    display: inline-flex;
+}
+
+
+
+
